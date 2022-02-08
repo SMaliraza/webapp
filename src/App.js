@@ -1,11 +1,12 @@
-
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-   
-   <h1>hello world</h1>
-  ) 
+    <div className="App">
+      <h1>hello from dev env</h1>
+    </div>
+  );
 }
 
 export default App;
