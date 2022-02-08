@@ -35,7 +35,7 @@ jobs:
       - name: creating build
         run: sudo yarn build
       - name: deploying on surge
-        run: surge ./build https://tough-control.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build bootcampclasspractise.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
          
      
     
