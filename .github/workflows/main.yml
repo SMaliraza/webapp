@@ -34,6 +34,8 @@ jobs:
          cmd: install
       - name: creating build
         run: sudo yarn build
+      - name: installing surge
+        run: npm install -g surge
       - name: deploying on surge
         run: surge ./build bootcampclasspractise.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
          
